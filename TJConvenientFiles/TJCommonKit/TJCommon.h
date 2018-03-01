@@ -147,7 +147,7 @@ typedef void(^TJTapGestureBlock)(UITapGestureRecognizer *sender);
 //其他类型block根据实际情况自行添加
 
 
-@interface WZCommon : NSObject
+@interface TJCommon : NSObject
 
 
 
