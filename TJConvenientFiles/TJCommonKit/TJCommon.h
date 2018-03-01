@@ -152,40 +152,40 @@ typedef void(^TJTapGestureBlock)(UITapGestureRecognizer *sender);
 
 
 
-+ (NSRegularExpression *)regexUrl;
-+ (NSRegularExpression *)regexTopic;
-
-//获取当前视图控制器
-+ (UIViewController *)topViewController;
-
-/**
- 判断相册的使用权限
-
- @param isNeedManual 某些方法不会自动调用系统权限请求，需要手动请求权限后继续逻辑操作，传YES，其他能自动调用的地方传NO即可
- @param block 需要手动请求权限时的后续逻辑
- @return 是否能根据权限继续逻辑流程
- */
-+ (BOOL)isAllowPhotoLibraryNeedManualAuthorizationRequest:(BOOL)isNeedManual block:(void(^)())block;
-/**
- 判断视频的使用权限
- 
- @return 是否有视频权限
- */
-+ (BOOL)isAllowCamera;
-/**
- 判断录音使用权限
-
- @return 是否有视频权限
- */
-+ (BOOL)isAllowAudioRecord;
-/**
- 判断定位权限
-
- @return 是否有定位权限
- */
-+ (BOOL)isAllowLocationNeedTipsView:(BOOL)needTips;
-
-NSString * getSafeString(id object);
-NSString * getNoSpaceString(id object);
+//+ (NSRegularExpression *)regexUrl;
+//+ (NSRegularExpression *)regexTopic;
+//
+////获取当前视图控制器
+//+ (UIViewController *)topViewController;
+//
+///**
+// 判断相册的使用权限
+//
+// @param isNeedManual 某些方法不会自动调用系统权限请求，需要手动请求权限后继续逻辑操作，传YES，其他能自动调用的地方传NO即可
+// @param block 需要手动请求权限时的后续逻辑
+// @return 是否能根据权限继续逻辑流程
+// */
+//+ (BOOL)isAllowPhotoLibraryNeedManualAuthorizationRequest:(BOOL)isNeedManual block:(void(^)())block;
+///**
+// 判断视频的使用权限
+// 
+// @return 是否有视频权限
+// */
+//+ (BOOL)isAllowCamera;
+///**
+// 判断录音使用权限
+//
+// @return 是否有视频权限
+// */
+//+ (BOOL)isAllowAudioRecord;
+///**
+// 判断定位权限
+//
+// @return 是否有定位权限
+// */
+//+ (BOOL)isAllowLocationNeedTipsView:(BOOL)needTips;
+//
+//NSString * getSafeString(id object);
+//NSString * getNoSpaceString(id object);
 
 @end
