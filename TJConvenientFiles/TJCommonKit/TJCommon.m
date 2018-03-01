@@ -5,9 +5,9 @@
 //  Copyright © 2016年 JoshPell. All rights reserved.
 //
 
-#import "WZCommon.h"
+#import "TJCommon.h"
 
-@implementation WZCommon
+@implementation TJCommon
 
 
 @end
