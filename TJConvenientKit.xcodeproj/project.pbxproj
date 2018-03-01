@@ -13,6 +13,7 @@
 		613E4C3B2047DCEF000A5BDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 613E4C3A2047DCEF000A5BDC /* Assets.xcassets */; };
 		613E4C3E2047DCEF000A5BDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 613E4C3C2047DCEF000A5BDC /* LaunchScreen.storyboard */; };
 		613E4C412047DCEF000A5BDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 613E4C402047DCEF000A5BDC /* main.m */; };
+		613E4C492047FB4D000A5BDC /* TJCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = 613E4C482047FB4D000A5BDC /* TJCommon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		613E4C3D2047DCEF000A5BDC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		613E4C3F2047DCEF000A5BDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		613E4C402047DCEF000A5BDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		613E4C472047FB4D000A5BDC /* TJCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TJCommon.h; sourceTree = "<group>"; };
+		613E4C482047FB4D000A5BDC /* TJCommon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TJCommon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				613E4C322047DCEF000A5BDC /* AppDelegate.m */,
 				613E4C342047DCEF000A5BDC /* ViewController.h */,
 				613E4C352047DCEF000A5BDC /* ViewController.m */,
+				613E4C472047FB4D000A5BDC /* TJCommon.h */,
+				613E4C482047FB4D000A5BDC /* TJCommon.m */,
 				613E4C372047DCEF000A5BDC /* Main.storyboard */,
 				613E4C3A2047DCEF000A5BDC /* Assets.xcassets */,
 				613E4C3C2047DCEF000A5BDC /* LaunchScreen.storyboard */,
@@ -142,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				613E4C492047FB4D000A5BDC /* TJCommon.m in Sources */,
 				613E4C362047DCEF000A5BDC /* ViewController.m in Sources */,
 				613E4C412047DCEF000A5BDC /* main.m in Sources */,
 				613E4C332047DCEF000A5BDC /* AppDelegate.m in Sources */,
